@@ -1,0 +1,19 @@
+Package: cubicBsplines
+Title: Computation of a cubic B-spline basis
+Date: 2020-05-2
+Version: 1.0.0
+Authors@R: 
+    person(given = "Philippe",
+           family = "Lambert",
+           role = c("aut", "cre"),
+           email = "p.lambert@uliege.be",
+           comment = "Université de Liège / Université catholique de Louvain (Belgium)")
+Description: Computation of a cubic B-spline basis for arbitrary knots. It also provides the 1st and 2nd derivatives, as well as the integral of the basis elements.
+License: GPL-3 + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
