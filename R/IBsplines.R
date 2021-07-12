@@ -1,8 +1,8 @@
 #' Computation of the integral of a cubic B-spline basis over (t0,x) for a given vector of knots
 #'
-#' @param t0 scalar giving lower value of the integration interval
-#' @param x vector giving the upper values of the integration interval
-#' @param knots vector of knots spanning the desired B-spline basis
+#' @param t0 scalar giving lower value of the integration interval.
+#' @param x vector giving the upper values of the integration interval.
+#' @param knots vector of knots spanning the desired B-spline basis.
 #'
 #' @return A matrix of dimension \code{length(x)} by \code{(length(knots)+2)}.
 #' @return Each integrated cubic B-spline is within a given column.

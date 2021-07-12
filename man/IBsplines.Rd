@@ -7,11 +7,11 @@
 IBsplines(t0, x, knots)
 }
 \arguments{
-\item{t0}{scalar giving lower value of the integration interval}
+\item{t0}{scalar giving lower value of the integration interval.}
 
-\item{x}{vector giving the upper values of the integration interval}
+\item{x}{vector giving the upper values of the integration interval.}
 
-\item{knots}{vector of knots spanning the desired B-spline basis}
+\item{knots}{vector of knots spanning the desired B-spline basis.}
 }
 \value{
 A matrix of dimension \code{length(x)} by \code{(length(knots)+2)}.

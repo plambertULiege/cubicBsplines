@@ -1,7 +1,7 @@
-#' Computation of a cubic B-spline basis associated to a given vector of knots.
+#' Computation of a cubic B-spline basis associated to a given vector of knots
 #'
-#' @param x vector of values where the B-spline basis must be evaluated
-#' @param knots vector of knots spanning the desired B-spline basis
+#' @param x vector of values where the B-spline basis must be evaluated.
+#' @param knots vector of knots spanning the desired B-spline basis.
 #'
 #' @return A matrix of dimension \code{length(x)} by \code{(length(knots)+2)}.
 #' @return Each column of the matrix corresponds to one cubic B-spline in the basis.

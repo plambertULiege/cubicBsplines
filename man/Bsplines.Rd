@@ -2,14 +2,14 @@
 % Please edit documentation in R/Bsplines.R
 \name{Bsplines}
 \alias{Bsplines}
-\title{Computation of a cubic B-spline basis associated to a given vector of knots.}
+\title{Computation of a cubic B-spline basis associated to a given vector of knots}
 \usage{
 Bsplines(x, knots)
 }
 \arguments{
-\item{x}{vector of values where the B-spline basis must be evaluated}
+\item{x}{vector of values where the B-spline basis must be evaluated.}
 
-\item{knots}{vector of knots spanning the desired B-spline basis}
+\item{knots}{vector of knots spanning the desired B-spline basis.}
 }
 \value{
 A matrix of dimension \code{length(x)} by \code{(length(knots)+2)}.
@@ -17,7 +17,7 @@ A matrix of dimension \code{length(x)} by \code{(length(knots)+2)}.
 Each column of the matrix corresponds to one cubic B-spline in the basis.
 }
 \description{
-Computation of a cubic B-spline basis associated to a given vector of knots.
+Computation of a cubic B-spline basis associated to a given vector of knots
 }
 \examples{
 Bsplines(x=runif(20),knots=seq(0,1,length=11))

@@ -7,12 +7,12 @@
 trapeze(x, fx)
 }
 \arguments{
-\item{x}{grid of values for the quadrature (vector)}
+\item{x}{grid of values for the quadrature (vector).}
 
-\item{fx}{values of the function on the grid (vector)}
+\item{fx}{values of the function on the grid (vector).}
 }
 \value{
-vector with a numerical approximation of \eqn{\int_{min(x)}^x f(t) dt} on the grid using the trapeze method
+vector with a numerical approximation of \eqn{\int_{min(x)}^{max(x)} f(t) dt} on the grid using the trapeze method.
 }
 \description{
 Trapeze integration from a vector of function values evaluated at quadrature points

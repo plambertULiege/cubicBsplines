@@ -7,9 +7,9 @@
 D2Bsplines(x, knots)
 }
 \arguments{
-\item{x}{vector of values where the 2nd derivative of the B-spline basis must be evaluated}
+\item{x}{vector of values where the 2nd derivative of the B-spline basis must be evaluated.}
 
-\item{knots}{vector of knots spanning the desired B-spline basis}
+\item{knots}{vector of knots spanning the desired B-spline basis.}
 }
 \value{
 A matrix of dimension \code{length(x)} by \code{(length(knots)+2)}.
